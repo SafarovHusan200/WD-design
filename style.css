@@ -1,0 +1,245 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 50px;
+    position: relative;
+    background: #EEEFF1;
+    height: 100px   ;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.logo h1{
+    font-size: 48px;
+    font-family: 'Revalia', sans-serif;
+    color: #34547A;
+}
+
+.nav_link{
+    display: inline-block;
+    padding-right: 42px;
+}
+
+.nav_link a{
+    color: #34547A;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Banner */
+.banner{
+    background: #EEEFF1; 
+    font-family: 'Roboto', serif;
+}
+.banner .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section_title{
+     font-size: 48px;
+
+     margin-bottom: 60px;
+}
+.banner_content .section_text{
+    width: 540px; 
+    margin-bottom: 60px;
+}
+
+.banner .container .banner_content button{
+    color: #fff;
+    background-color: #34547A;;
+    width: 225px;
+    height: 65px;
+    border: none;
+    margin-bottom: 100px;
+}
+
+/* Info */
+.info{
+    padding-top: 119px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.info .container{
+    text-align: center;
+}
+.info .container .section_title{
+    font-size: 32px;
+}
+.info .section_text{
+    width: 540px;
+    text-align: center;
+    position: absolute;
+    left: 400px ; 
+}
+.text{
+    padding-bottom: 50px;
+}
+
+/* Projects */
+.projects{
+    background-color: #34547A;
+    color: #fff;
+    height: 200px;
+    
+}
+.projects-items     {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.project-item{
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+}
+.projects_info{
+    margin: 10px;
+}
+/* /Projects */
+
+/* Skills */
+.skills .container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skills_items{
+    display: flex;
+}
+.skills_item{
+    height: 4px;
+    width: 300px;
+    background-color: #34547A;
+    margin-bottom: 65px;
+}
+.skills_white{ 
+    height: 4px; 
+    width: 95px;
+    background-color: #c4c4c4;
+    margin-bottom: 65px; 
+}
+.techno_title{
+    margin-bottom: 20px;
+    color: #727272;
+    font-family: 'Roboto', sans-serif;
+}
+.me_img img{
+    width: 500px;
+    height: 400px;
+    margin: 100px;
+
+}
+/* /Skills */
+
+.videos{
+    background: #EEEFF1;
+}
+.video{
+    margin-top: 57px;
+}
+
+.image_top, .image_bottom{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -4px;
+}
+.portfolio img{
+    width: 336px;
+    height: 336px;
+
+}
+
+
+.micro_img{
+
+    display: flex;
+
+    align-items: center;
+    margin-left: 300px;
+}
+
+.micro_img img{
+    width: 150px;
+    height: 80px;
+    margin: 100px 50px 100px 0 ;
+}
+
+/* Contact */
+.contact{
+    background: #EEEFF1;
+}
+.contact_in{
+    background: #EEEFF1;
+}
+.contact_input{
+    padding: 50px 0px 120px 200px;
+    margin-left: 170px;
+}
+
+
+.text_input{
+    width: 255px;
+    height: 50px;
+}
+.email_input{
+
+    width: 255px;
+    height: 50px;
+
+}
+.sms_input{
+
+    width: 547px;
+    height: 100px;
+
+}
+.vse{
+    border: none;
+    margin: 10px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+/* /Contact */
+
+/* Footer */
+.footer{
+    background-color: #34547A;;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 50px 0;
+}
+.fish h3, .fish p{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    color: #fff;
+    
+}
+.fish h3{
+    font-size: 21px;
+}
+.icon img{
+    margin: 10px;
+}
+/* /Footer */
